@@ -24,7 +24,7 @@ jobs:
           repository: "FixBuildCreation/StarlinkVpn"   # the repo that has the release
           tag: "Starlink VPN | StarLink V2RayN"                            # the release tag
           fileName: "*"                  # the asset file name, multiple files with comma separated, all files with *
-          out-file-path: "assets"                  # folder in your repo to store the file
+          out-file-path: "*"                  # folder in your repo to store the file
           # token: ${{ secrets.SOURCE_TOKEN }}     # ONLY needed if the source repo is private
 
       # 3. Commit and push the new file to your repository
